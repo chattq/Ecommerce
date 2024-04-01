@@ -1,0 +1,74 @@
+.container_userLayout{
+    background-color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(75 85 99 / 1);
+    width: 100%;
+}
+.box_userLayout {
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.userLayout_body{
+    display: flex;
+    justify-content: space-between;
+}
+.user_side_nav{
+    width: 18% ;
+}
+.infor_layout{
+    width: calc(82% - 5%);
+}
+.login_header_title{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.change_home{
+    text-decoration: none;
+    color: #cd1818;
+    margin-right: 10px;
+}
+.nameLogin{
+    margin-left: 10px;
+}
+@media (max-width:1024px){
+    .user_side_nav{
+        display: none;
+    }
+    .userLayout_body{
+        display: flex;
+        justify-content: center;
+    }
+    .infor_layout{
+        width: 100%;
+    }
+    .box_userLayout{
+        width: 100%;
+    }
+    .container_userLayout{
+        padding-top: 0;
+    }
+}
+@media (max-width:768px){
+    .user_side_nav{
+        display: none;
+    }
+    .userLayout_body{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:550px){
+    .user_side_nav{
+        display: none;
+    }
+    .container_userLayout{
+        display: block;
+    }
+}
